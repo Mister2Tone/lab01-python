@@ -20,7 +20,6 @@ employeeName = list(employeeSortedDict.keys())
 employeeSalary = list(employeeSortedDict.values())
 
 for i in range(len(employeeName)):
-	# print("{1} : {2}".format(employeeName[i],employeeSalary[i]))
 	print(employeeName[i],":",employeeSalary[i])
 
 

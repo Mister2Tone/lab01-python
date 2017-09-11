@@ -28,10 +28,9 @@ for i in range(len(studentId)):
 
 	if(os.getcwd() == checkDir):
 		file = open("work.conf", "w")
-		file.write("{0}={1}".format(dirName,group))
+		file.write("id={0}\n".format(dirName))
+		file.write("group={0}\n".format(group))
 		file.close()
 		os.chdir("..")
 	else:
 		print("wrong, please check your path directory")
-
-
