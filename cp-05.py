@@ -8,5 +8,5 @@ for i in range(len(my_List)):
 		result += my_List[i]
 
 print("My List is : {}".format(my_List))
-# print(len(my_List))
+
 print("result is : {}".format(result))
